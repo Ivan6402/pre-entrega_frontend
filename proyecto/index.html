@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-entrega de Ivan Ibarra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tarjetas.css">
+    <link rel="stylesheet" href="media_queries.css">
+</head>
+<body>
+    <header id="main-header">
+        <a href="index.html">
+        <img src="imagenes/logo.com.png" id="logo" alt="">
+        </a>
+        <h1>Pre-Entrega</h1>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#main-productos">Productos</a></li>
+                <li><a href="#main-footer">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-principal">
+        <div>
+            <h2>Productos de camping</h2>
+            <p>nos especializamos en productos de calidad</p>
+        </div>
+    </main>
+    
+    <br>
+
+    <section id="main-productos">
+        <div class="card">
+            <div class="card-header">
+                <img id="avatar" src="./imagenes/item.png" alt="avatar">
+                <h2 class="card-name">Parrilla movil</h2>
+                <p class="card-role">Ideal para camping hogar</p>
+            </div>  
+
+            <p class="card-bio">
+                Disfruta de tus asados en familia con producto de nuestra marca &#127774;
+            </p>
+
+            <div class="tags">
+                <span class="tag">Calidad</span>
+                <span class="tag">Garantia</span>
+                <span class="tag">Durabilidad</span>
+                <span class="tag">camping</span>
+            </div>
+
+            <button class="btn-contacto">Agregar al carrito &#128722;</button>
+        </div>
+
+        <div class="card">
+        <div class="card-header">
+            <img id="avatar" src="./imagenes/item.png" alt="avatar">
+            <h2 class="card-name">Kit para parrilla</h2>
+            <p class="card-role">Ideal para tus asados</p>
+        </div>
+
+
+
+        <p class="card-bio">
+            Kit de 3 piezas para el asador, incluye pala, pinza y atizador &#128298;
+        </p>
+
+        <div class="tags">
+                <span class="tag">Calidad</span>
+                <span class="tag">Garantia</span>
+                <span class="tag">Durabilidad</span>
+                <span class="tag">camping</span>
+        </div>
+
+        <button class="btn-contacto">Agregar al carrito &#128722;</button>
+    </div>
+
+        <div class="card">
+        <div class="card-header">
+            <img id="avatar" src="./imagenes/item.png" alt="avatar">
+            <h2 class="card-name">Disco de arado</h2>
+            <p class="card-role">Ideal para cocinar al aire libre</p>
+        </div>
+
+
+
+        <p class="card-bio">
+            Aprovecha tu patio o dia de camping para cocinar &#9978;
+        </p>
+
+        <div class="tags">
+                <span class="tag">Calidad</span>
+                <span class="tag">Garantia</span>
+                <span class="tag">Durabilidad</span>
+                <span class="tag">camping</span>
+        </div>
+
+        <button class="btn-contacto">Agregar al carrito &#128722;</button>
+    </div>
+
+
+    </section>
+
+    <section id="main-contacto">
+
+        <div id="main-mapa">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.283584573475!2d-58.52421112433639!3d-34.47032957300238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb03af4ee789d%3A0x1078b2e43ca0ecf0!2sMonse%C3%B1or%20Alberti%20720%2C%20B1642BUP%20San%20Isidro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1740580098889!5m2!1ses!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        
+        
+        <div id="main-formulario">
+            <div class="main-info">
+                <ul>
+                    <li>Horario de 9hs a 18hs</li>
+                    <li>Localidad San isidro</li>
+                    <li>telefono 11-555-5555</li>
+                </ul>
+            </div>
+            <div class="main-info">
+                <p>Enviamos tu consulta y te responderemos en la brevedad</p>
+                <form id="main-formulario" action="https://formspree.io/f/mgoqonyq" method="POST">
+                    <label>Nombre:
+                    <input type="text" name="nombre" required>
+                    </label><br>
+                    <label>Email:
+                    <input type="email" name="email" required>
+                    </label><br>
+                    <label>Mensaje:
+                    <textarea name="mensaje" required></textarea>
+                    </label><br>
+                    <!-- Campo oculto para redirección -->
+                    <!-- <input type="hidden" name="_redirect"
+                    value="https://tusitio.com/gracias.html"> -->
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </section> <!-- fin de main-contacto -->
+
+    <footer id="main-footer">
+        <p>Pre-entrega realizada por Ivan Ibarra.</p>
+    </footer>
+</body>
+</html>

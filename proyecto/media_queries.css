@@ -1,0 +1,59 @@
+/* Tablets*/
+@media only screen and (max-width: 600px) {
+
+#main-header {
+    font-size: small;
+    height: fit-content;
+}
+
+#logo {
+    width: 22px;
+    margin: 0 10px;
+}
+
+#main-principal {
+    width: auto;
+}
+
+#main-principal div {
+    font-size: 16px;
+    width: fit-content;
+}
+
+
+#main-productos {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#main-mapa {
+    width: 100%;
+}
+
+#main-formulario {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 0;
+}
+
+
+}
+/* Laptops y monitores medianos */
+@media only screen and (min-width: 600px) {
+body {
+    background-color: #f0f2f5;}
+}
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+body {
+    background-color: #f0f2f5;}
+}
