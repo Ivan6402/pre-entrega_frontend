@@ -17,14 +17,24 @@ CSS3
 Flexbox
 Media Queries
 Google Fonts
+
 📂 Estructura del proyecto
+
 ├── index.html
+
 ├── style.css
+
 ├── tarjetas.css
+
 ├── media_queries.css
+
 ├── tarjeta.html
+
 └── imagenes/
+
+
 📱 Responsive Design
+
 
 El sitio fue adaptado para:
 
